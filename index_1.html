@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paris Tennis Dispo — Politique de confidentialité</title>
+<style>
+  :root{
+    --bg:#FAF8F3; --card:#fff; --ink:#132A24; --mute:#6E7B74;
+    --line:rgba(15,42,36,.12); --accent:#8FA318;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
+         "Hiragino Sans GB",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:44px 22px 90px}
+  header{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:30px}
+  h1{
+    font-family:Georgia,"Songti SC",serif; font-weight:600;
+    font-size:30px; line-height:1.2; margin:0 0 6px; letter-spacing:-.01em;
+  }
+  .app{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+       font-weight:700;margin:0 0 14px}
+  .updated{color:var(--mute);font-size:14px;margin:0}
+  nav{display:flex;gap:8px;margin:22px 0 0;flex-wrap:wrap}
+  nav button{
+    font:inherit;font-size:14px;font-weight:600;cursor:pointer;
+    padding:7px 15px;border-radius:99px;border:1px solid var(--line);
+    background:var(--card);color:var(--ink);
+  }
+  nav button[aria-current="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  nav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  h2{
+    font-family:Georgia,"Songti SC",serif;font-weight:600;
+    font-size:20px;margin:34px 0 10px;letter-spacing:-.005em;
+  }
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px}
+  li{margin-bottom:7px}
+  strong{font-weight:600}
+  .box{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:18px 20px;margin:0 0 14px;
+  }
+  .box p:last-child,.box ul:last-child{margin-bottom:0}
+  a{color:#5C6B12}
+  .fill{background:#FFE9A8;padding:1px 6px;border-radius:5px;font-weight:600}
+  footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);
+         color:var(--mute);font-size:14px}
+  section[hidden]{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="app">Paris Tennis Dispo</p>
+  <h1 data-t="title">Politique de confidentialité</h1>
+  <p class="updated" data-t="updated">Dernière mise à jour : 24 août 2026</p>
+  <nav aria-label="Langue">
+    <button onclick="pick('fr')" data-lang="fr" aria-current="true">Français</button>
+    <button onclick="pick('en')" data-lang="en" aria-current="false">English</button>
+    <button onclick="pick('zh')" data-lang="zh" aria-current="false">中文</button>
+  </nav>
+</header>
+
+<!-- ══════════════════ FRANÇAIS ══════════════════ -->
+<section id="fr">
+  <p>Paris Tennis Dispo rassemble les créneaux de tennis libres publiés par
+     <strong>tennis.paris.fr</strong> (Ville de Paris) et <strong>Anybuddy</strong>,
+     et vous prévient quand un créneau se libère. L'application ne réserve rien à
+     votre place : elle vous renvoie vers le site officiel, où vous réservez vous-même.</p>
+
+  <h2>Pas de compte</h2>
+  <p>Il n'y a ni inscription, ni mot de passe, ni connexion via un réseau social.
+     Nous ne demandons jamais vos identifiants tennis.paris.fr ou Anybuddy, et
+     l'application ne pourrait pas les utiliser même si vous les saisissiez :
+     elle n'a aucun moyen de réserver.</p>
+
+  <h2>Ce que nous conservons</h2>
+  <div class="box">
+    <ul>
+      <li><strong>Un identifiant aléatoire</strong> généré sur votre téléphone au
+          premier lancement. Il ne contient ni votre nom, ni votre e-mail, ni
+          l'identifiant de votre appareil.</li>
+      <li><strong>Un jeton de notification</strong> fourni par Apple, uniquement si
+          vous acceptez les notifications. Il sert à faire arriver l'alerte sur
+          votre écran, rien d'autre.</li>
+      <li><strong>L'adresse de départ que vous saisissez</strong>, et les
+          coordonnées correspondantes. Elles servent à calculer la distance
+          jusqu'aux courts et à filtrer par rayon.</li>
+      <li><strong>Vos préférences d'alerte</strong> : courts favoris, plages horaires,
+          rayon, surface, couvert ou découvert, prix maximum.</li>
+      <li><strong>L'historique des alertes envoyées</strong>, afin de ne pas vous
+          notifier deux fois le même créneau et de respecter les limites de fréquence.</li>
+      <li><strong>Votre langue</strong>, pour rédiger les notifications dans la bonne langue.</li>
+    </ul>
+  </div>
+  <p>C'est la liste complète. Nous ne collectons ni votre position GPS, ni vos
+     contacts, ni votre agenda, ni votre carnet d'adresses.</p>
+
+  <h2>Ce que nous ne faisons pas</h2>
+  <ul>
+    <li>Aucune publicité, aucun traceur publicitaire.</li>
+    <li>Aucun outil d'analyse tiers (pas de Google Analytics, pas de Facebook SDK).</li>
+    <li>Aucune vente, location ou échange de vos données.</li>
+    <li>Aucun profilage, aucune décision automatisée vous concernant.</li>
+  </ul>
+
+  <h2>Qui d'autre voit ces données</h2>
+  <ul>
+    <li><strong>Apple</strong> et le service de notifications <strong>Expo</strong> —
+        pour acheminer les notifications jusqu'à votre téléphone. Ils reçoivent le
+        jeton et le texte de l'alerte.</li>
+    <li><strong>Railway</strong> — l'hébergeur de notre serveur, où la base de données
+        est stockée.</li>
+    <li><strong>api-adresse.data.gouv.fr</strong> — le service public français qui
+        convertit l'adresse que vous saisissez en coordonnées. Seul le texte de
+        l'adresse lui est transmis, jamais votre identifiant.</li>
+  </ul>
+  <p><strong>tennis.paris.fr et Anybuddy ne reçoivent rien de vous.</strong>
+     Nous lisons leurs pages publiques ; aucune de vos données ne leur est envoyée.</p>
+
+  <h2>Durée de conservation</h2>
+  <p>Vos préférences sont conservées tant que vous utilisez l'application.
+     L'historique des alertes est effacé au bout de 30 jours. Si vous désinstallez
+     l'application, écrivez-nous pour que tout soit supprimé : le jeton de
+     notification devient invalide de lui-même, mais vos préférences resteraient
+     sinon en base.</p>
+
+  <h2>Vos droits</h2>
+  <p>Conformément au RGPD, vous pouvez demander l'accès à vos données, leur
+     rectification, leur effacement, leur portabilité, ou vous opposer à leur
+     traitement. Une seule adresse pour tout cela :</p>
+  <div class="box">
+    <p><a href="mailto:paristennisdispo@gmail.com">paristennisdispo@gmail.com</a></p>
+    <p>Nous répondons sous 30 jours. Vous pouvez aussi introduire une réclamation
+       auprès de la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+  </div>
+  <p>Le moyen le plus rapide de tout effacer reste de désinstaller l'application
+     puis de nous écrire — nous supprimons alors l'enregistrement correspondant.</p>
+
+  <h2>Enfants</h2>
+  <p>L'application n'est pas destinée aux enfants de moins de 13 ans et ne leur
+     demande aucune donnée.</p>
+
+  <h2>Modifications</h2>
+  <p>Si cette politique change, la date en haut de page est mise à jour. Les
+     changements importants seront signalés dans l'application.</p>
+</section>
+
+<!-- ══════════════════ ENGLISH ══════════════════ -->
+<section id="en" hidden>
+  <p>Paris Tennis Dispo gathers free tennis slots published by
+     <strong>tennis.paris.fr</strong> (City of Paris) and <strong>Anybuddy</strong>,
+     and tells you when one opens up. The app never books for you — it hands you
+     over to the official site, where you book yourself.</p>
+
+  <h2>No account</h2>
+  <p>There is no sign-up, no password, no social login. We never ask for your
+     tennis.paris.fr or Anybuddy credentials, and the app could not use them even
+     if you typed them in: it has no way to book anything.</p>
+
+  <h2>What we store</h2>
+  <div class="box">
+    <ul>
+      <li><strong>A random identifier</strong> generated on your phone the first time
+          you open the app. It contains no name, no email, no device ID.</li>
+      <li><strong>A notification token</strong> issued by Apple, only if you allow
+          notifications. It exists to get the alert onto your screen, nothing else.</li>
+      <li><strong>The starting address you type in</strong>, and its coordinates.
+          They are used to work out how far each court is and to filter by radius.</li>
+      <li><strong>Your alert preferences</strong>: saved courts, playing hours,
+          radius, surface, covered or open-air, maximum price.</li>
+      <li><strong>A log of alerts sent</strong>, so we never notify you twice about
+          the same slot and can respect the frequency limits.</li>
+      <li><strong>Your language</strong>, so notifications are written in it.</li>
+    </ul>
+  </div>
+  <p>That is the complete list. We do not collect your GPS location, your contacts,
+     your calendar, or your address book.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No advertising, no ad trackers.</li>
+    <li>No third-party analytics (no Google Analytics, no Facebook SDK).</li>
+    <li>We never sell, rent or trade your data.</li>
+    <li>No profiling, no automated decisions about you.</li>
+  </ul>
+
+  <h2>Who else sees this</h2>
+  <ul>
+    <li><strong>Apple</strong> and the <strong>Expo</strong> push service — to deliver
+        notifications to your phone. They receive the token and the alert text.</li>
+    <li><strong>Railway</strong> — our server host, where the database lives.</li>
+    <li><strong>api-adresse.data.gouv.fr</strong> — the French public service that
+        turns the address you type into coordinates. Only the address text is sent,
+        never your identifier.</li>
+  </ul>
+  <p><strong>tennis.paris.fr and Anybuddy receive nothing from you.</strong>
+     We read their public pages; none of your data is sent to them.</p>
+
+  <h2>How long we keep it</h2>
+  <p>Your preferences are kept as long as you use the app. The alert log is deleted
+     after 30 days. If you uninstall the app, email us and we will delete everything:
+     the notification token stops working on its own, but your preferences would
+     otherwise stay in the database.</p>
+
+  <h2>Your rights</h2>
+  <p>Under the GDPR you can ask to access your data, correct it, delete it, take it
+     with you, or object to it being processed. One address for all of that:</p>
+  <div class="box">
+    <p><a href="mailto:paristennisdispo@gmail.com">paristennisdispo@gmail.com</a></p>
+    <p>We reply within 30 days. You may also complain to the French data protection
+       authority, CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+  </div>
+  <p>The fastest way to erase everything is still to delete the app and then email
+     us — we remove the matching record.</p>
+
+  <h2>Children</h2>
+  <p>The app is not intended for children under 13 and asks them for nothing.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the date at the top is updated. Anything significant
+     will also be flagged inside the app.</p>
+</section>
+
+<!-- ══════════════════ 中文 ══════════════════ -->
+<section id="zh" hidden>
+  <p>Paris Tennis Dispo 汇总 <strong>tennis.paris.fr</strong>（巴黎市政）和
+     <strong>Anybuddy</strong> 公开发布的网球空场信息，有场空出来时提醒你。
+     App 不代你预订 —— 它把你送到官方网站，由你自己完成预订。</p>
+
+  <h2>没有账号</h2>
+  <p>不需要注册、不需要密码、不需要用社交账号登录。我们从不索要你的
+     tennis.paris.fr 或 Anybuddy 账号密码；就算你输进去，App 也用不上 ——
+     它根本没有预订的能力。</p>
+
+  <h2>我们存了什么</h2>
+  <div class="box">
+    <ul>
+      <li><strong>一串随机标识</strong>，首次打开 App 时在你手机上生成。
+          它不含姓名、不含邮箱、不含设备识别码。</li>
+      <li><strong>一个通知令牌</strong>，由 Apple 签发，只有你允许通知时才有。
+          它的唯一用途是把提醒送到你的屏幕上。</li>
+      <li><strong>你填写的出发地址</strong>及其对应坐标。用来计算各球场离你多远、
+          按范围筛选。</li>
+      <li><strong>你的提醒设置</strong>：私藏球场、可打球的时间、范围、场地材质、
+          有顶或露天、最高价格。</li>
+      <li><strong>已发送提醒的记录</strong>，用来避免同一个时段推送两次，
+          以及遵守推送频率上限。</li>
+      <li><strong>你使用的语言</strong>，用来决定推送用哪种语言写。</li>
+    </ul>
+  </div>
+  <p>就这些，没有别的。我们不获取你的 GPS 位置、通讯录、日历。</p>
+
+  <h2>我们不做什么</h2>
+  <ul>
+    <li>没有广告，没有广告追踪。</li>
+    <li>没有任何第三方统计工具（没有 Google Analytics，没有 Facebook SDK）。</li>
+    <li>绝不出售、出租或交换你的数据。</li>
+    <li>不做用户画像，不对你做自动化决策。</li>
+  </ul>
+
+  <h2>还有谁会看到</h2>
+  <ul>
+    <li><strong>Apple</strong> 和 <strong>Expo</strong> 推送服务 —— 负责把通知送到你手机上，
+        它们会收到令牌和提醒文字。</li>
+    <li><strong>Railway</strong> —— 我们服务器的托管商，数据库存放在那里。</li>
+    <li><strong>api-adresse.data.gouv.fr</strong> —— 法国政府的公共地址服务，
+        把你填的地址转成坐标。只发送地址文本，不发送你的标识。</li>
+  </ul>
+  <p><strong>tennis.paris.fr 和 Anybuddy 收不到你的任何信息。</strong>
+     我们只读取它们的公开页面，不向它们发送你的数据。</p>
+
+  <h2>保存多久</h2>
+  <p>只要你还在用这个 App，设置就一直保留。提醒记录 30 天后删除。
+     卸载 App 之后请写信告诉我们，我们会把记录彻底删掉 ——
+     通知令牌会自己失效，但你的设置若不通知我们就会留在数据库里。</p>
+
+  <h2>你的权利</h2>
+  <p>根据欧盟《通用数据保护条例》（GDPR），你可以要求查阅、更正、删除、
+     导出你的数据，或反对我们处理它。一个邮箱全部搞定：</p>
+  <div class="box">
+    <p><a href="mailto:paristennisdispo@gmail.com">paristennisdispo@gmail.com</a></p>
+    <p>我们会在 30 天内回复。你也可以向法国数据保护机构 CNIL
+       （<a href="https://www.cnil.fr">cnil.fr</a>）投诉。</p>
+  </div>
+  <p>最快的清除方式仍然是卸载 App 后写信给我们，我们删掉对应记录。</p>
+
+  <h2>儿童</h2>
+  <p>本 App 不面向 13 岁以下儿童，也不向他们索取任何数据。</p>
+
+  <h2>政策变更</h2>
+  <p>本政策若有修改，页首日期会同步更新。重要变更会在 App 内另行说明。</p>
+</section>
+
+<footer>
+  <p>Paris Tennis Dispo · <span data-t="foot">Application indépendante, sans lien avec
+     la Ville de Paris ni avec Anybuddy.</span></p>
+</footer>
+
+</div>
+
+<script>
+  var T = {
+    fr:{title:"Politique de confidentialité", updated:"Dernière mise à jour : 24 août 2026",
+        foot:"Application indépendante, sans lien avec la Ville de Paris ni avec Anybuddy."},
+    en:{title:"Privacy Policy", updated:"Last updated: 24 August 2026",
+        foot:"An independent app, not affiliated with the City of Paris or Anybuddy."},
+    zh:{title:"隐私政策", updated:"最后更新：2026 年 8 月 24 日",
+        foot:"独立开发的应用，与巴黎市政和 Anybuddy 均无隶属关系。"}
+  };
+  function pick(l){
+    ['fr','en','zh'].forEach(function(x){
+      document.getElementById(x).hidden = (x !== l);
+    });
+    document.querySelectorAll('nav button').forEach(function(b){
+      b.setAttribute('aria-current', String(b.dataset.lang === l));
+    });
+    document.querySelectorAll('[data-t]').forEach(function(el){
+      el.textContent = T[l][el.dataset.t];
+    });
+    document.documentElement.lang = l;
+    try { history.replaceState(null, '', '#' + l); } catch (e) {}
+  }
+  // 打开时优先看网址后缀,其次跟随浏览器语言,默认法语
+  (function(){
+    var h = (location.hash || '').replace('#','');
+    if (['fr','en','zh'].indexOf(h) >= 0) return pick(h);
+    var n = (navigator.language || 'fr').toLowerCase();
+    pick(n.indexOf('zh') === 0 ? 'zh' : n.indexOf('en') === 0 ? 'en' : 'fr');
+  })();
+</script>
+</body>
+</html>
